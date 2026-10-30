@@ -1,0 +1,20 @@
+# Godot 4+ / 编辑器缓存
+.godot/
+/android/
+/export/
+*.tmp
+*.translation
+
+# 运行期数据：绝不提交（含令牌、个人路径、日志）
+/launcher.cfg
+/auth/
+/cache/
+/logs/
+/authlib-injector.log
+*.log
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
