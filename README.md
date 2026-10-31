@@ -3,7 +3,8 @@
 一个使用 **Godot 4.7+ / GDScript** 编写的第三方、非官方本地启动器，只做启动相关的事情：
 
 > 仓库地址：<https://github.com/glgl6688/gl-MC-launcher>  
-> 下载器：<https://github.com/glgl6688/gl-MC-downloader/>
+> 下载器：<https://github.com/glgl6688/gl-MC-downloader/>  
+> 邮箱：```luminesence_14@qq.com```
 
 - 添加多个游戏文件夹，按文件夹显示可折叠的版本树；
 - 每个版本自动使用自己的目录保存配置（`gl-instance.json`），不需要实例名或实例选择；
@@ -401,17 +402,3 @@ Copyright (c) 2026 glgl6688
 - `authlib-injector.jar` 不由本仓库分发，用户自行获取并遵循其许可证。
 - 用户导入的游戏文件、Mod、光影、材质、整合包归各自作者所有，请遵守对应许可与服务器规则。
 
-## 不提交的运行期数据
-
-以下文件/目录属于用户本地数据，已由 `.gitignore` 排除：
-
-```text
-launcher.cfg
-auth/
-logs/
-cache/
-authlib-injector.log
-*.log
-```
-
-发布前请确认 `git status` 中没有这些内容。
